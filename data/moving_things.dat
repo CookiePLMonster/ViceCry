@@ -1,0 +1,21 @@
+# This file specifies the attributes of moving things (fans, blimps)
+# The entries follow a specific structure:
+
+# TYPE 1 ENTRIES - FANS
+# A - modelname		B - X axis rot period		C - Y axis rot period		D - Z axis rot period
+# E - default X rot	F - default Y rot			G - default Z rot			H - max processing distance
+
+# TYPE 2 ENTRIES - BLIMPS
+# A - modelname		B - X axis rot period		C - default X rot			D - default Y rot
+# E - default Z rot	F - X rotation radius		G - Y rotation radius		H - Z rotation radius
+# I - max processing distance
+
+# A					B	C	D		E		F		G		H		I
+od_lightbeam,		0,	0,	16384,	90.0,	0.0,	0.0,	1500.0
+ap_radar1_01,		0,	0,	2048,	0.0,	0.0,	0.0,	400.0
+mall_fans,			0,	0,	1024,	0.0,	0.0,	0.0,	100.0
+htl_fan_rotate_dy,	0,	0,	1024,	0.0,	0.0,	0.0,	100.0
+htl_fan_rotate_nt,	0,	0,	1024,	0.0,	0.0,	0.0,	100.0
+hotroomfan,			0,	0,	1024,	0.0,	0.0,	0.0,	100.0
+blimp_day,			1000,	350.0,	350.0,	0.0,	-465.0,	1163.0,	260.0,	1500.0
+blimp_night,		1000,	-465.0,	1163.0,	260.0,	350.0,	350.0,	0.0,	1500.0
